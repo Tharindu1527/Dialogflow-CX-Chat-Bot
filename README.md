@@ -1,22 +1,38 @@
-Agent_Flight_Booker
-Agent_Flight_Booker is a chatbot built using Dialogflow, designed to assist users in booking flights. This repository contains the necessary files and configurations to deploy and interact with the chatbot.
+# Agent_Flight_Booker
 
-Features
-Flight Booking: Users can inquire about available flights, book tickets, and receive booking confirmations.
-Natural Language Understanding: Leveraging Dialogflow's NLU capabilities to understand user queries in natural language.
-Easy Integration: Can be integrated into various platforms such as websites, messaging apps, and voice assistants.
-Deployment
-Dialogflow Setup: Import the provided agent_Flight_Booker.blob into your Dialogflow console to set up the agent.
-Integration: Integrate the Dialogflow agent with your desired platform using Dialogflow's fulfillment options.
-Deploy: Deploy the integrated chatbot to your preferred hosting platform.
-Usage
-Once deployed, users can interact with the chatbot by sending queries related to flight booking. The chatbot will respond accordingly, guiding users through the booking process.
+A Dialogflow chatbot agent for flight booking assistance. This repository contains the exported agent file that can be imported into Dialogflow to create a flight booking conversational experience.
 
-Contribution
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+## Features
 
-License
-This project is licensed under the MIT License.
+- Flight booking inquiries and assistance
+- Natural language understanding for flight-related queries
+- Booking confirmation handling
+- Flight status checks
 
-Acknowledgements
-Special thanks to the Dialogflow team for providing an excellent platform for building conversational agents.
+## Setup Instructions
+
+1. **Prerequisites**
+   - Google Cloud Platform account
+   - Dialogflow ES account
+
+2. **Import the Agent**
+   - Go to the [Dialogflow Console](https://dialogflow.cloud.google.com/)
+   - Create a new agent
+   - Click on the settings gear icon ⚙️
+   - Select the "Export and Import" tab
+   - Click "Import From Zip" and select the `agent_Flight_Booker.blob` file
+   - Click "IMPORT"
+
+## Usage
+
+Once imported, the agent can handle conversations like:
+- "I want to book a flight to New York"
+- "Show me available flights for tomorrow"
+- "What's my flight status?"
+
+## Contributing
+
+Contributions are welcome! Feel free to:
+1. Fork the repository
+2. Make your changes
+3. Submit a pull request
